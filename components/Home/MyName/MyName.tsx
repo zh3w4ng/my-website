@@ -31,7 +31,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
           }}
           className="text-gray-300 font-bold text-3xl lg:text-7xl sm:text-5xl md:text-6xl mt-4"
         >
-          Anaflous Abdellatif.
+          Zhe (Jeu) Wang
         </motion.h1>
         <motion.h2
           initial={{ y: 10, opacity: 0 }}
@@ -42,7 +42,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
           }}
           className="text-gray-400 font-bold text-3xl lg:text-7xl sm:text-5xl md:text-6xl mt-4"
         >
-          I make ideas & things alive.
+          connect dots with logic
         </motion.h2>
 
         <motion.h3
@@ -54,11 +54,14 @@ export default function MyName(props: { finishedLoading: boolean }) {
           }}
           className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider"
         >
-          I&apos;m a <span className="text-AAsecondary">software engineer</span> skilled in problem-solving and specializing in building
-          <br className="md:block hidden" /> (and occasionally designing) exceptional digital experiences. Currently.{" "}
+          I&apos;m a <span className="text-AAsecondary">Data Engineer</span> skilled in problem-solving and specializing in building
+          <br className="md:block hidden" /> scalable distributed data pipelines and harmonious team APIs.,
           <br className="md:block hidden" />
-          I&apos;m focused on creating and deploying <span className="text-AAsecondary">Smart Contracts</span> on the
-          Blockchain.
+          Currently, I&apos;m focused on creating and deploying <span className="text-AAsecondary">Flink</span> ETL jobs
+
+          <br className="md:block hidden" />
+          on <span className="text-AAsecondary">Kubernetes</span> for communication with {" "}
+         <span className="text-AAsecondary">Kafka</span>.
         </motion.h3>
         <motion.div
           initial={{ y: 10, opacity: 0 }}
